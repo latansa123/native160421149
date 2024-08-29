@@ -2,6 +2,7 @@ package com.ubaya.native160421149
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,11 +12,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        Log.d("aaaaa")
+        Log.d("aaaaa","hhhhh")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        log.d("bbb")
+        Log.d("bbb","aaaa")
     }
 }
