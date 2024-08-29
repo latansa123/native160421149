@@ -13,4 +13,9 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         Log.d("aaaaa")
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        log.d("bbb")
+    }
 }
